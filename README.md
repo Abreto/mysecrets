@@ -1,7 +1,5 @@
 #mysecrets
 
----
-
 All your plain text or other origin files must be named as `*.raw` or `*/*.raw`. Run
 
 	./encryptall
