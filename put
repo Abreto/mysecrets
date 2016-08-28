@@ -1,6 +1,6 @@
 #!/bin/bash
 
 repo="origin"
-bran="master"
+bran="secrets"
 
 git push $repo $bran
