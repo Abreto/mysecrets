@@ -1,0 +1,12 @@
+#!/bin/bash
+
+name="abreto"
+
+keybase login
+
+for f in `ls *.raw */*.raw`
+do
+  echo "Encrypting" $f
+  keybase encrypt $name -i $f -b -o $f".enc"
+  echo $f "encrypted"
+done

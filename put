@@ -1,0 +1,6 @@
+#!/bin/bash
+
+repo="origin"
+bran="master"
+
+git push $repo $bran
