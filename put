@@ -3,4 +3,6 @@
 repo="origin"
 bran="master"
 
+git add .
+git commit -m "Updated at `date`."
 git push $repo $bran
