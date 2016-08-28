@@ -3,4 +3,6 @@
 repo="origin"
 bran="secrets"
 
+git add .
+git commit -m "Updated at `date`."
 git push $repo $bran
