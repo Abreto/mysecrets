@@ -2,8 +2,6 @@
 
 name="abreto"
 
-keybase login
-
 for f in `ls *.raw */*.raw`
 do
   echo "Encrypting" $f
