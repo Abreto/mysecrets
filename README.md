@@ -74,7 +74,7 @@ the textarea, enter your passphrase and just click `Decrypt`.
 
 #### Advanced
 
-Just a example. If all your origin files are saved as `*.raw`, you can run
+Just an example. If all your origin files are saved as `*.raw`, you can run
 
 	$ ./encrypt `ls *.raw`
 
