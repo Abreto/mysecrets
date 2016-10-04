@@ -16,7 +16,7 @@ I will introduce you to each file. Don't close the window please, in spite of my
 
 As is universally acknowledged, `git` will ignore files listed in this file. And
 I have added a line `*.raw` to it. So it is recommended that you should name all
-your origin files as `*.raw`, making it easy to leave them local directory
+your original files as `*.raw`, making it easy to leave them local directory
 and prevent them from uploaded to your remote repository (Probably means your
 secrets are exposed to everyone). Of course, it's all up to you.
 
@@ -74,7 +74,7 @@ the textarea, enter your passphrase and just click `Decrypt`.
 
 #### Advanced
 
-Just an example. If all your origin files are saved as `*.raw`, you can run
+Just an example. If all your original files are saved as `*.raw`, you can run
 
 	$ ./encrypt `ls *.raw`
 
