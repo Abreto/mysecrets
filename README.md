@@ -36,13 +36,13 @@ Commands that I will give more details later.
 
 Run
 
-	./get
+	$ ./get
 
 to pull changes from your remote repository.
 
 Run
 
-	./put
+	$ ./put
 
 to push local changes to your remote repository. You can edit the variable
 `repo`(repository) or `bran`(branch) in file `put`.
@@ -53,7 +53,7 @@ to push local changes to your remote repository. You can edit the variable
 
 Run
 
-	./encrypt <file1>[ <file2>[ <file3>[ ...]]]
+	$ ./encrypt <file1>[ <file2>[ <file3>[ ...]]]
 
 to encrypt files following the command. Encrypted text will be stored in
 `<filename>.asc`, and binary output will be stored in `<filename>.bin`.
@@ -62,7 +62,7 @@ to encrypt files following the command. Encrypted text will be stored in
 
 Run
 
-	./decrypt <file1>[ <file2>[ <file3>[ ...]]]
+	$ ./decrypt <file1>[ <file2>[ <file3>[ ...]]]
 
 to decrypt files following the command. Decrypted message will be output to
 `stdout`. As for `decrypt2file`, you can guess what he does!
@@ -76,7 +76,7 @@ the textarea, enter your passphrase and just click `Decrypt`.
 
 Just a example. If all your origin files are saved as `*.raw`, you can run
 
-	./encrypt `ls *.raw`
+	$ ./encrypt `ls *.raw`
 
 to encrypt all your files in one line. But you are supposed to **innovate**(aka
 imagine)!
