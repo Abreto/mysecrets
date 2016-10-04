@@ -1,0 +1,11 @@
+#!/bin/bash
+
+name="`cat keybase_recipient`"
+
+for f in $*
+do
+  echo "Encrypting" $f
+  keybase pgp encrypt $name -s -i $f -o $f".asc"
+  keybase pgp encrypt $name -s -i $f -b -o $f".bin"
+  echo $f "encrypted"
+done

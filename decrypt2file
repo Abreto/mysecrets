@@ -4,9 +4,9 @@ keybase login
 
 for f in $*
 do
-  echo "Decrypting" $f
+  echo "Decrypting" $f "to" ${f%.*}
   echo "--------------------------------------------------------------------------------"
-  cat $f | keybase pgp decrypt
+  keybase pgp decrypt -i $f -o ${f%.*}
   echo "--------------------------------------------------------------------------------"
-  echo $f "decrypted"
+  echo $f "decrypted" "to" ${f%.*}
 done
