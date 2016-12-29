@@ -9,7 +9,7 @@
 !README.md
 !*.asc
 !*.bin
-!/password
-/password/*
-!/password/*.asc
-!/password/*.bin
+!**
+**/*
+!**/*.asc
+!**/*.bin
