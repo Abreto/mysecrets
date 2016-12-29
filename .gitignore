@@ -1,3 +1,11 @@
-*~
-*.raw
-test
+*
+!.gitignore
+!decrypt
+!decrypt2file
+!encrypt
+!get
+!keybase_recipient
+!put
+!README.md
+!*.asc
+!*.bin
